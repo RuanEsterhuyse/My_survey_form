@@ -10,6 +10,46 @@
 
 <body>
     <h1 id="title"> My School Survey Form</h1>
+    <p id="description">Tell us about your experience with our school.</p>
+    <form id="survey-form">
+        <label id="name-label">Name</label><input type="text" id="name" name="name" required
+            placeholder="Name"></input><br>
+        <label id="email-label">Email</label><input type="email" id="email" name="email" required
+            placeholder="Email"></input><br>
+        <label id="number-label">Age</label><input type="number" id="number" name="number" min="18" max="99" required
+            placeholder="Age"></input><br>
+
+        <label for="Review">How would you rate your learning experience?</label>
+        <select id="dropdown" name="Review">
+            <option value="Excellent">Excellent</option>
+            <option value="Great">Great</option>
+            <option value="Good">Good</option>
+            <option value="Okay">Okay</option>
+            <option value="Not Satisfied">Not Satisfied</option>
+            <option value="Terrible">Terrible</option>
+        </select><br>
+
+        <br>
+
+        <label>Would you take another course with our school?</label><br>
+        <br><input type="radio" name="Answer" value="Yes">Yes<br>
+        <br>
+        <input type="radio" name="Answer" value="No">No<br>
+        <br><input type="radio" name="Answer" value="Maybe">Maybe<br>
+
+        <br><label>Where did you hear about us?</label>
+        <br><input type="checkbox" id="Search Engine" name="Search Engine" value="Search Engine">
+        <label for="Search Engine"> Search Engine</label><br>
+        <input type="checkbox" id="Social Media" name="Social Media" value="Social Media">
+        <label for="Social Media"> Social Media</label><br>
+        <input type="checkbox" id="Recommendation" name="Recommendation" value="Recommendation">
+        <label for="Recommendation"> Recommendation</label><br>
+        <textarea placeholder="Comments"></textarea>
+        <input type="submit" id="submit">
+    </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
 </body>
 
 </html>
