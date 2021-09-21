@@ -59,7 +59,7 @@ body {
   display: inline-block;
   padding: 15px;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 #number {
@@ -69,6 +69,20 @@ body {
   margin-bottom: 30px;
 }
 
-#school {
+label {
   font-size: 1.5em;
+}
+
+input {
+  display: inline-block;
+  padding: 15px;
+}
+#dropdown {
+  height: 30px;
+  width: 180px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 2px solid #30475e;
 }
