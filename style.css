@@ -66,4 +66,9 @@ body {
   padding: 10px;
   text-align: left;
   width: 20%;
+  margin-bottom: 30px;
+}
+
+#school {
+  font-size: 1.5em;
 }
