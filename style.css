@@ -70,10 +70,6 @@ body {
   margin-left: 25px;
 }
 
-label {
-  font-size: 1em;
-}
-
 input {
   display: inline;
   padding: 0px;
@@ -99,6 +95,7 @@ input {
 textarea {
   width: 300px;
   height: 100px;
+  font-size: 15px;
 }
 
 #submit {
@@ -121,4 +118,8 @@ textarea {
   background-image: -o-linear-gradient(top, #1f78b8, #1a85cc);
   background-image: linear-gradient(to bottom, #1f78b8, #1a85cc);
   text-decoration: none;
+}
+
+.radiobtn {
+  margin-top: 15px;
 }
