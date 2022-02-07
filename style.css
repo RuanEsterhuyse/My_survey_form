@@ -1,7 +1,6 @@
 body {
   font-family: roboto, serif;
   font-size: 16px;
-  min-width: 750px;
   background-color: #30475e;
   text-align: center;
   color: #222831;
@@ -17,11 +16,8 @@ body {
 
 .container {
   background-color: #e8e8e8;
-  width: 30%;
-  max-width: 900px;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  max-width: 500px;
+  margin: 0 auto;
   border-radius: 30px;
   padding: 10px 10px 20px 10px;
 }
@@ -97,7 +93,6 @@ textarea {
   width: 300px;
   height: 100px;
   font-size: 15px;
-  display: fix;
 }
 
 #submit {

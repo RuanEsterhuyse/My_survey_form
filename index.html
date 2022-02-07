@@ -5,28 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <link link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Survey-form</title>
+    <title>Survey-Form</title>
 </head>
 
 <body>
     <h1 id="title">Survey Form</h1>
-    <div class="container">
+    
+<div class="container">
    
-    <p id="description"><strong>Tell us about your experience with our school.</strong></p>
+  <p id="description"><strong>Tell us about your experience with our school.</strong></p>
     <form id="survey-form">
-        <label id="name-label">Name:</label><input type="text" id="name" name="name" required
-            placeholder="Enter your name"></input><br>
-        <label id="email-label">Email:</label><input type="email" id="email" name="email" required
-            placeholder="Enter Your email"></input><br>
-        <label id="number-label">Age:</label><input type="number" id="number" name="number" min="18" max="99" required
-            placeholder="Enter your age"></input><br>
+        <label id="name-label">Name:</label>
+        <input type="text" id="name" name="name" required
+            placeholder="Enter your name"><br>
+        <label id="email-label">Email:</label>
+        <input type="email" id="email" name="email" required
+            placeholder="Enter Your email"><br>
+        <label id="number-label">Age:</label>
+        <input type="number" id="number" name="number" min="18" max="99" required
+            placeholder="Enter your age"><br>
 
-        <label for="Review"><strong>How would you rate your learning experience?</strong></label>
-        <select id="dropdown" name="Review">
+        <label for="dropdown"><strong>How would you rate your learning experience?</strong></label>
+        <select id="dropdown" name="dropdown">
             <option value="Excellent">Excellent</option>
             <option value="Great">Great</option>
             <option value="Good">Good</option>
@@ -46,10 +50,10 @@
     </div>
         <br><label><strong>Where did you hear about us?</strong></label>
         <div class="box">
-        <br><input type="checkbox" id="Search Engine" name="Search Engine" value="Search Engine">
-        <label for="Search Engine"> Search Engine</label>
-        <input type="checkbox" id="Social Media" name="Social Media" value="Social Media">
-        <label for="Social Media"> Social Media</label>
+        <br><input type="checkbox" id="Search-Engine" name="Search- Engine" value="Search-Engine">
+        <label for="Search-Engine"> Search Engine</label>
+        <input type="checkbox" id="Social-Media" name="Social-Media" value="Social-Media">
+        <label for="Social-Media"> Social Media</label>
         <input type="checkbox" id="Recommendation" name="Recommendation" value="Recommendation">
  
     
@@ -61,7 +65,7 @@
 </div>  
     <input type="submit" id="submit">
     </form>
-    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </div>
 </body>
